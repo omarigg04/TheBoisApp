@@ -1,0 +1,7 @@
+// 1 - Nuevo componente llamado agregar.component.ts
+// 2 - desde h3 hasta el /form
+// 3 - mover el personaje y metodo de agregar.
+// 4 - recibir personajes con un @Input
+// 5 - recibir nuevo con un @input
+// 6 - <app-agregar [nuevo]="nuevo" ></app-agregar>
+

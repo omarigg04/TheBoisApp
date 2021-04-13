@@ -5,17 +5,19 @@ import { AppComponent } from './app.component';
 
 import { ContadorModule } from './contador/contador.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { TheboisModule } from './thebois/thebois.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
 
   ],
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    TheboisModule
   ],
   providers: [],
   bootstrap: [AppComponent]
